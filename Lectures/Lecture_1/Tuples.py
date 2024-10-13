@@ -37,3 +37,8 @@ print(mutt_list)
 # If we want to make a tuple from 1 element only we write it like that (<element>, ).
 one_el_tuple = ("One element tuple",)
 print(one_el_tuple)
+
+#We can initialize a tuple without the braces:
+one_el_tuple = 'One element tuple',
+print(one_el_tuple)
+#Tuples have index and count methods. They are the same as the ones used for the lists.
